@@ -1,5 +1,5 @@
-from pepper_trend_strategy import build_pepper_trend_signal
-from ash_mean_reversion_strategy import build_ash_mean_reversion_signal
+from strategies.pepper_trend_strategy import build_pepper_trend_signal
+from strategies.ash_mean_reversion_strategy import build_ash_mean_reversion_signal
 
 import pandas as pd
 
