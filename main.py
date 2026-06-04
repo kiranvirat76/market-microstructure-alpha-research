@@ -25,8 +25,7 @@ from risk         import compute_risk_report
 from Validation   import information_coefficient, quintile_analysis, signal_decay
 from Walk_forward import walk_forward
 from capacity     import capacity_sweep, impact_sweep
-from Attrubution  import full_attribution, marginal_contribution, sharpe_progression
-
+from attribution import full_attribution, marginal_contribution, sharpe_progression
 
 
 def _banner(title: str):
