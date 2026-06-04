@@ -52,9 +52,9 @@ Python • Pandas • NumPy • SciPy • Matplotlib
 
 ## Project Structure
 
+```text
 market-microstructure-alpha-research/
 
-'''text 
 ├── data/
 ├── strategies/
 │   ├── ash_mean_reversion_strategy.py
@@ -70,7 +70,8 @@ market-microstructure-alpha-research/
 ├── capacity.py
 ├── walk_forward.py
 └── attribution.py
-'''
+```
+
 ## Key Research Components
 
 * Market Microstructure Analytics
