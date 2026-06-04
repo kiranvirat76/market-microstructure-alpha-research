@@ -11,7 +11,7 @@ Sharpe progression A → B → C is the number recruiters love to see.
 """
 
 import pandas as pd
-from Signals  import build_combined_signal
+from signals  import build_combined_signal
 from backtest import run_backtest
 from risk     import compute_risk_report
 
