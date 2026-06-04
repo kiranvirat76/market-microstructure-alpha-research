@@ -17,13 +17,13 @@ Steps
 
 import pandas as pd
 
-from Data_Loader  import load_orderbook, load_trades, merge_trades_with_ob
-from Metrics      import lee_ready_direction
-from Signals      import build_combined_signal
+from data_loader  import load_orderbook, load_trades, merge_trades_with_ob
+from metrics      import lee_ready_direction
+from signals      import build_combined_signal
 from backtest     import run_backtest
 from risk         import compute_risk_report
-from Validation   import information_coefficient, quintile_analysis, signal_decay
-from Walk_forward import walk_forward
+from validation   import information_coefficient, quintile_analysis, signal_decay
+from walk_forward import walk_forward
 from capacity     import capacity_sweep, impact_sweep
 from attribution import full_attribution, marginal_contribution, sharpe_progression
 
