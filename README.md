@@ -4,30 +4,24 @@ Independent Quant Research Project using the IMC Prosperity Trading Challenge Ro
 
 ## Overview
 
-This project investigates short-horizon alpha generation from limit order book dynamics and trade-flow behavior. The framework combines signal engineering, predictive validation, execution-cost modelling, and risk analysis into a complete quantitative research pipeline.
+This project investigates short-horizon alpha generation from limit order book dynamics and trade-flow behavior. The framework combines feature engineering, predictive validation, execution-cost modelling and risk analysis into a complete quantitative research pipeline.
 
 ## Dataset
 
 * IMC Prosperity Trading Challenge – Round 1
-* 60,000+ order book snapshots
-* 2,200+ trades
+* 60,000+ limit order book snapshots
+* 2,200+ executed trades
 * 2 products across 3 trading days
 
 ## Research Pipeline
 
 Raw Order Book Data
-↓
-Feature Engineering
-↓
-Signal Generation
-↓
-Predictive Validation
-↓
-Backtesting
-↓
-Capacity Analysis
-↓
-Alpha Attribution
+→ Feature Engineering
+→ Signal Generation
+→ Predictive Validation
+→ Backtesting
+→ Capacity Analysis
+→ Alpha Attribution
 
 ## Signals
 
@@ -54,15 +48,10 @@ Alpha Attribution
 
 ## Technology Stack
 
-* Python
-* Pandas
-* NumPy
-* SciPy
-* Matplotlib
+Python • Pandas • NumPy • SciPy • Matplotlib
 
 ## Project Structure
 
-```text
 market-microstructure-alpha-research/
 
 ├── data/
@@ -77,7 +66,6 @@ market-microstructure-alpha-research/
 ├── walk_forward.py
 ├── attribution.py
 └── strategies/
-```
 
 ## Key Research Components
 
