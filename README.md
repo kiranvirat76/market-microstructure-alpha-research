@@ -54,7 +54,12 @@ Python • Pandas • NumPy • SciPy • Matplotlib
 
 market-microstructure-alpha-research/
 
+'''text 
 ├── data/
+├── strategies/
+│   ├── ash_mean_reversion_strategy.py
+│   ├── pepper_trend_strategy.py
+│   └── combined_structural_strategy.py
 ├── main.py
 ├── data_loader.py
 ├── signals.py
@@ -64,9 +69,8 @@ market-microstructure-alpha-research/
 ├── risk.py
 ├── capacity.py
 ├── walk_forward.py
-├── attribution.py
-└── strategies/
-
+└── attribution.py
+'''
 ## Key Research Components
 
 * Market Microstructure Analytics
