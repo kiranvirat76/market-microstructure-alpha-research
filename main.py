@@ -109,7 +109,7 @@ def main():
     pnl_df  = run_backtest(signal_df, position_limit=50, impact_coeff=0.05)
     risk_df = compute_risk_report(pnl_df)
     # ── Structural Benchmark ─────────────────────────────
-    from combined_structural_strategy import build_structural_strategy
+    from strategies.combined_structural_strategy import build_structural_strategy
 
     structural_signal = build_structural_strategy(ob)
 
